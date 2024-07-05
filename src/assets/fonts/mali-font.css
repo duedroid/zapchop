@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./Mali-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Mali-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Mali-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./Mali-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Mali-Bold.ttf") format("truetype");
+}
