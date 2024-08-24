@@ -2,7 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(
   "https://gxtowsrvserzqvnuhxic.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4dG93c3J2c2VyenF2bnVoeGljIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTk3NDI4MDAsImV4cCI6MjAzNTMxODgwMH0.4ZMEn_xCAzgKYwkXSzsjXkqhYDjPQAn96IhY2TiQqh0"
+  process.env.SUPABASE_KEY
 );
 
 export async function getExpenseGroupList() {
